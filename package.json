@@ -5,12 +5,12 @@
   "description": "Electric Wealth database: SQLite schema migrations, seed data and setup scripts.",
   "type": "module",
   "engines": {
-    "node": ">=22.13"
+    "node": ">=24"
   },
   "scripts": {
-    "db:migrate": "node --disable-warning=ExperimentalWarning scripts/migrate.js",
-    "db:seed": "node --disable-warning=ExperimentalWarning scripts/seed.js",
-    "db:reset": "node --disable-warning=ExperimentalWarning scripts/reset.js",
-    "db:status": "node --disable-warning=ExperimentalWarning scripts/status.js"
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed": "node scripts/seed.js",
+    "db:reset": "node scripts/reset.js",
+    "db:status": "node scripts/status.js"
   }
 }

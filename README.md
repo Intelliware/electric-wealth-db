@@ -12,7 +12,7 @@ It uses **SQLite** through Node's built-in `node:sqlite` module, so you don't ne
 
 ## Getting started (Windows, macOS, Linux)
 
-Prerequisite: **Node.js 22.13 or later** (`node --version`).
+Prerequisite: **Node.js 24** (`node --version`). The workshop standard is 24.19.0, as pinned in `.nvmrc`.
 
 ```bash
 npm run db:reset     # delete and rebuild data/electric-wealth.db from migrations + seed
