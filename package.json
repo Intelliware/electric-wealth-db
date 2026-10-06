@@ -1,0 +1,16 @@
+{
+  "name": "electric-wealth-db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Electric Wealth database: SQLite schema migrations, seed data and setup scripts.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "db:migrate": "node --disable-warning=ExperimentalWarning scripts/migrate.js",
+    "db:seed": "node --disable-warning=ExperimentalWarning scripts/seed.js",
+    "db:reset": "node --disable-warning=ExperimentalWarning scripts/reset.js",
+    "db:status": "node --disable-warning=ExperimentalWarning scripts/status.js"
+  }
+}
