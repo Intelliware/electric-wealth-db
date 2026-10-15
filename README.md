@@ -6,14 +6,14 @@ The database for Electric Wealth. Uses **SQLite** through Node's built-in `node:
 
 Prerequisite: **Node.js 24** (`node --version`). The workshop standard is 24.19.0, as pinned in `.nvmrc`.
 
-Clone `electric-wealth-db`, `electric-wealth-api` and `electric-wealth-web` side by side, then:
+Clone `electric-wealth-db`, `electric-wealth-api-spring` and `electric-wealth-web` side by side, then:
 
 ```bash
 npm run db:reset     # build data/electric-wealth.db
 npm run db:status    # check it worked
 ```
 
-The API expects the database at `../electric-wealth-db/data/electric-wealth.db`, which is the default location.
+The Spring API expects the database at `../electric-wealth-db/data/electric-wealth.db`, which is the default location.
 
 | Script | What it does |
 |---|---|
@@ -28,7 +28,7 @@ To use a different file, pass `--db <path>` or set `DB_PATH`:
 npm run db:reset -- --db C:\temp\ew-test.db
 ```
 
-> **Stop the API before running `db:reset`.** On Windows, an open connection locks the file.
+> **Stop the Spring API before running `db:reset`.** On Windows, an open connection locks the file.
 
 ## Opening the database in DBeaver
 
