@@ -6,7 +6,7 @@ The database for Electric Wealth. Uses **SQLite** through Node's built-in `node:
 
 Prerequisite: **Node.js 24** (`node --version`). The workshop standard is 24.19.0, as pinned in `.nvmrc`.
 
-Clone `electric-wealth-db`, `electric-wealth-api-spring` and `electric-wealth-web` side by side, then:
+Clone `electric-wealth-db`, `electric-wealth-api` and `electric-wealth-web` side by side, then:
 
 ```bash
 npm run db:reset     # build data/electric-wealth.db
